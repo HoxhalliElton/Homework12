@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connecting to the database
-connection = sqlite3.connect('ch17/books.db')
+connection = sqlite3.connect('books.db')
 
 # Printing all the authors
 pd.options.display.max_columns = 10
