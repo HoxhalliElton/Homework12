@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connecting to the database
-connection = sqlite3.connect("ch17/books.db")
+connection = sqlite3.connect("books.db")
 cursor = connection.cursor()
 
 
